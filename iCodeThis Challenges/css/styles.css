@@ -1,0 +1,150 @@
+/* General Styles */
+
+body {
+  background-color: #f4f4f4;
+  transition: background-color 0.5s, color 0.5s;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 30px 0;
+}
+
+.content-wrapper {
+  flex: 1 0 auto;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  position: relative;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-block-start: 15px;
+  margin-block-end: 10px;
+  text-align: center;
+}
+
+
+/* Image Container Styles */
+
+.project-image {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image img {
+  max-width: 100%;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-image:hover img {
+  filter: brightness(0.7);
+}
+
+
+/* Overlay Styles */
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 1.3rem;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.project-image:hover .project-overlay {
+  opacity: 1;
+}
+
+.btn-primary {
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin-block-start: 3rem;
+  padding: 30px 0;
+  background-color: #343a40;
+  color: #f4f4f4;
+  font-size: 1.2rem;
+}
+
+body.dark .footer {
+  background-color: #f4f4f4;
+  color: #f4f4f4;
+}
+
+
+/* Dark theme */
+
+body.dark {
+  background-color: #2d3236;
+  color: #f4f4f4;
+}
+
+body.dark .navbar {
+  background-color: #f4f4f4;
+}
+
+body.dark .navbar a,
+body.dark .navbar button,
+body.dark .navbar .navbar-brand {
+  color: #f4f4f4;
+}
+
+body.dark .card {
+  background-color: #464e56;
+  color: #f4f4f4;
+}
+
+body.dark .card a {
+  color: #f4f4f4;
+}
+
+
+/* Theme Toggle Button Styles */
+
+#theme-toggle:hover {
+  background-color: #dddddd;
+}
+
+body.dark #theme-toggle {
+  background-color: #f4f4f4;
+  color: #343a40;
+  border-color: #343a40;
+}
+
+body.dark #theme-toggle:hover {
+  background-color: #343a40;
+  color: #f4f4f4;
+}

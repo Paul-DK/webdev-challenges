@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+    <title>Book Card</title>
+  </head>
+  <body>
+    <section class="card">
+      <nav>
+        <div class="share"></div>
+        <div class="close"></div>
+      </nav>
+      <div class="content-wrapper">
+        <div class="wrapper">
+          <div class="top">
+            <div class="cover-rating">
+              <img
+                src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_283-Book_Card/images/marslifecover_.jpg"
+                alt="Book Cover"
+              />
+              <div class="rating">
+                <input type="radio" name="rating" value="5" id="5" /><label
+                  for="5"
+                  >☆</label
+                >
+                <input type="radio" name="rating" value="4" id="4" /><label
+                  for="4"
+                  >☆</label
+                >
+                <input type="radio" name="rating" value="3" id="3" /><label
+                  for="3"
+                  >☆</label
+                >
+                <input type="radio" name="rating" value="2" id="2" /><label
+                  for="2"
+                  >☆</label
+                >
+                <input type="radio" name="rating" value="1" id="1" /><label
+                  for="1"
+                  >☆</label
+                >
+              </div>
+            </div>
+            <div class="title-preview">
+              <h2 class="title">Mars Life</h2>
+              <p class="author">Novel by <span>Ben Bova</span></p>
+              <p class="snippet">
+                Jamie Waterman discovered the cliff dwelling on Mars, and the
+                fact that an intelligent race lived on the red planet sixty-five
+                million years ago, only to be driven into extinction by the
+                crash of a giant meteor. Now the exploration of Mars is itself
+                under threat of extinction, as the ultraconservative New
+                Morality movement gains control of the U.S. government and cuts
+                off all funding for the Mars program.
+              </p>
+              <div class="read-more">
+                <p class="snippet">
+                  Meanwhile, Carter Carleton, an anthropologist who was driven
+                  from his university post by unproven charges of rape, has
+                  started to dig up the remains of a Martian village. Science
+                  and politics clash on two worlds as Jamie desperately tries to
+                  save the Mars program and uncover who the vanished Martians
+                  were.
+                </p>
+              </div>
+              <button type="button" class="morebutton">
+                <img
+                  src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_283-Book_Card/images/book.png"
+                  alt="Read More"
+                />
+                read more
+              </button>
+            </div>
+          </div>
+          <div class="bottom">
+            <table class="bookDetails">
+              <tr>
+                <td>Originally Published</td>
+                <td>5, August 2008</td>
+              </tr>
+              <tr>
+                <td>Author</td>
+                <td>Ben Bova</td>
+              </tr>
+              <tr>
+                <td>Series</td>
+                <td>Grand Tour</td>
+              </tr>
+              <tr>
+                <td>Preceded by</td>
+                <td>Return to Mars</td>
+              </tr>
+              <tr>
+                <td>Page count</td>
+                <td>432 (Hardcover edition)</td>
+              </tr>
+              <tr>
+                <td>ISBN</td>
+                <td>978-0-7653-1787-2</td>
+              </tr>
+              <tr>
+                <td>Characters</td>
+                <td>
+                  Jamie Waterman, Carter Carleton, Vijay Waterman, Doreen
+                  McManus, C. Dexter Trumball, Chang Laodong, Doug Stavenger,
+                  Billy Graycloud, Bucky Winters, Itzak Rosenberg, Monsignor
+                  Fulvio A. DiNardo, Sal Hasdrubal
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="share-modal" id="shareModal">
+      <div class="share-modal-content">
+        <span class="close-modal"></span>
+        <h3>Share</h3>
+        <div class="share-link-container">
+          <input
+            type="text"
+            readonly
+            value="https://iCodeThis.com/?ref=Paul"
+            id="shareLink"
+          />
+          <button id="copyButton">Copy</button>
+        </div>
+        <div class="socialmediaList">
+          <a
+            href="https://www.facebook.com/sharer.php?u=https://iCodeThis.com/?ref=Paul"
+            target="_blank"
+            ><img
+              src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_283-Book_Card/images/facebook.png"
+              alt="Share to Facebook"
+          /></a>
+          <a
+            href="https://twitter.com/share?url=https://iCodeThis.com/?ref=Paul"
+            target="_blank"
+            ><img
+              src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_283-Book_Card/images/twitter.png"
+              alt="Share to Twitter"
+          /></a>
+          <a
+            href="https://www.linkedin.com/sharing/share-offsite/?url=https://iCodeThis.com/?ref=Paul"
+            target="_blank"
+            ><img
+              src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_283-Book_Card/images/linkedin.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

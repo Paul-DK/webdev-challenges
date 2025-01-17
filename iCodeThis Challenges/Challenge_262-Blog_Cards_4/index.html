@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/newstyles.css" />
+  </head>
+  <body>
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="card">
+      <header>
+        <img
+          src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_262-Blog_Cards_4/images/lightning.jpg"
+          alt="Intense Lightning Storm"
+        />
+      </header>
+      <div class="wrapper">
+        <main>
+          <h2>Lightning Safety Myths</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+            doloremque possimus vitae quasi voluptatem fuga molestiae odit eius
+            quia. Reprehenderit ab provident quasi nobis atque odit doloremque
+            deserunt quo, cupiditate.
+          </p>
+        </main>
+        <hr />
+        <footer>
+          <div class="profileInfo">
+            <div class="leftSide">
+              <img
+                src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_262-Blog_Cards_4/images/lightningpfp.jpg"
+                alt="Profile Picutre of A. Nonymous"
+              />
+              <div class="profileDetails">
+                <h3>A. Nonymous</h3>
+                <p class="jobTitle">Insurance Blogger</p>
+              </div>
+            </div>
+            <p class="date">20, June</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="card">
+      <header>
+        <img
+          src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_262-Blog_Cards_4/images/autumn.jpg"
+          alt="Golden Autumnal Leaves"
+        />
+      </header>
+      <div class="wrapper">
+        <main>
+          <h2>All the Leaves are Brown</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+            doloremque possimus vitae quasi voluptatem fuga molestiae odit eius
+            quia. Reprehenderit ab provident quasi nobis atque odit doloremque
+            deserunt quo, cupiditate.
+          </p>
+        </main>
+        <hr />
+        <footer>
+          <div class="profileInfo">
+            <div class="leftSide">
+              <img
+                src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_262-Blog_Cards_4/images/autumnpfp.jpg"
+                alt="Profile Picture of Mama Papa"
+              />
+              <div class="profileDetails">
+                <h3>Mama Papa</h3>
+                <p class="jobTitle">Seasonal Singer</p>
+              </div>
+            </div>
+            <p class="date">2, October</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="card">
+      <header>
+        <img
+          src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_262-Blog_Cards_4/images/rain.jpg"
+          alt="Heavy Rain on a Red Umbrella"
+        />
+      </header>
+      <div class="wrapper">
+        <main>
+          <h2>Its like Rain, on your Wedding Day</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+            doloremque possimus vitae quasi voluptatem fuga molestiae odit eius
+            quia. Reprehenderit ab provident quasi nobis atque odit doloremque
+            deserunt quo, cupiditate.
+          </p>
+        </main>
+        <hr />
+        <footer>
+          <div class="profileInfo">
+            <div class="leftSide">
+              <img
+                src="https://raw.githubusercontent.com/Paul-DK/iCodeThis-Challenges/main/Challenge_262-Blog_Cards_4/images/rainpfp.jpg"
+                alt="Profile Picture of A. Morrisette"
+              />
+              <div class="profileDetails">
+                <h3>A. Morrisette</h3>
+                <p class="jobTitle">Unironic Photographer</p>
+              </div>
+            </div>
+            <p class="date">9, November</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      // Accessing the checkbox element
+      document
+        .getElementById("theme-toggle")
+        // Adding an event listener to detect changes on the checkbox (i.e., checked or unchecked)
+        .addEventListener("change", function () {
+          // Getting the "checked" property of the checkbox
+          // If it's checked, it will return true, otherwise false
+          var isChecked = this.checked;
+
+          // Setting a "data-theme" attribute on the <html> element (document.documentElement)
+          // If the checkbox is checked, it sets the attribute to "dark", otherwise "light"
+          document.documentElement.setAttribute(
+            "data-theme",
+            isChecked ? "dark" : "light"
+          );
+        });
+    </script>
+  </body>
+</html>

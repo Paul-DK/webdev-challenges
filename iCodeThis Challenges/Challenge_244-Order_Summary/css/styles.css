@@ -1,0 +1,241 @@
+:root {
+  --card-section-corners: 5px;
+  --clr-brand-red: hsl(1, 60%, 49%);
+  --clr-brand-faded: hsl(1, 60%, 90%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.background {
+  background-image: url("../img/pizzaovenbg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100dvh;
+  width: 100dvw;
+}
+
+.blur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  width: 100dvw;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px) saturate(70%);
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  margin: 2rem 0;
+}
+
+.card .card-header {
+  background-color: var(--clr-brand-red);
+  height: 90px;
+  border-top-left-radius: var(--card-section-corners);
+  border-top-right-radius: var(--card-section-corners);
+}
+
+.card .card-content {
+  background-color: white;
+}
+
+.card .card-branding {
+  position: absolute;
+  width: 100%;
+  top: calc(90px - 3rem);
+}
+
+.card .card-branding p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.card .card-branding .vendor-name {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 0.5;
+}
+
+.card .card-branding img {
+  height: 6rem;
+  width: 6rem;
+  border: 0.4rem solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card .card-content .cart {
+  padding: 8rem 2rem 2rem;
+}
+
+.card .card-content .cart table {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 0.75rem;
+  border-spacing: 0;
+}
+
+.card .card-content .cart td {
+  padding: 5px;
+}
+
+.card .card-content .cart td.product {
+  width: 53%;
+}
+
+.card .card-content .cart td.sizeInfo {
+  text-align: center;
+  width: 14%;
+}
+
+.card .card-content .cart td.remove,
+.card .card-content .cart td.quantity,
+.card .card-content .cart td.addAnother {
+  text-align: center;
+  width: 6%;
+}
+
+.card .card-content .cart td.cancelItem {
+  text-align: center;
+  width: 8%;
+}
+
+.card .card-content .cart td.price {
+  text-align: end;
+  width: 15%;
+}
+
+.card .card-content .cart tr:nth-child(odd) {
+  background-color: rgb(236, 236, 236);
+}
+
+.card .card-content .cart tr:nth-child(even) {
+  background-color: var(--clr-brand-faded);
+}
+
+.card .card-content .item-management {
+  padding: 0 2rem 2rem;
+}
+
+.card .card-content .item-management .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  margin: 2px 0;
+  border: 1px solid lightgray;
+  border-radius: var(--card-section-corners);
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button img {
+  display: inline;
+  vertical-align: middle;
+  height: 1.4rem;
+  width: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+.item-management {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-management .two-cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-management .two-cols .half {
+  width: 49.5%;
+}
+
+.card .charge-checkout {
+  background-color: white;
+  border-bottom-left-radius: var(--card-section-corners);
+  border-bottom-right-radius: var(--card-section-corners);
+}
+
+.card .charge-checkout {
+  padding: 0 2rem;
+}
+
+.card .charge-checkout .charge-summary {
+  padding: 1.5rem;
+  background-color: var(--clr-brand-faded);
+  border-radius: var(--card-section-corners);
+}
+
+.card .charge-checkout .charge-summary ul {
+  list-style: none;
+}
+
+.card .charge-checkout .charge-summary li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .charge-checkout .charge-summary li span {
+  font-weight: 700;
+}
+
+.charge-checkout > button {
+  font-weight: 500;
+  margin: 1rem 0 2rem;
+  padding: 0.5rem 0;
+  width: 100%;
+  border-radius: var(--card-section-corners);
+  border: 3px solid var(--clr-brand-red);
+  background-color: white;
+}
+.charge-checkout > button img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* Button Hover Styles */
+
+.card .card-content .cart td.remove:hover,
+.card .card-content .cart td.addAnother:hover,
+.card .card-content .cart td.cancelItem:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--clr-brand-red);
+}
+
+.card .card-content .item-management .button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(202, 52, 50);
+  border-color: rgb(202, 52, 50);
+}
+
+.card .card-content .item-management .button:hover > img {
+  filter: brightness(100);
+  -webkit-filter: brightness(100);
+}
+
+.charge-checkout > button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(202, 52, 50);
+}
+
+.charge-checkout > button:hover > img {
+  filter: brightness(100);
+  -webkit-filter: brightness(100);
+}
