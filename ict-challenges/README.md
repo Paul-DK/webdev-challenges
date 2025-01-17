@@ -15,7 +15,7 @@ This section of my repository is dedicated to my **learning journey**, where I t
 Each challenge is organized in its own folder:
 
 ```
-icode-this/
+ict-challenges/
 │── challenge-1/
 │   ├── index.html
 │   ├── css/
@@ -50,7 +50,7 @@ Each project folder is structured to keep **CSS, SCSS, JavaScript, and assets** 
 ## 🌍 Viewing Live Previews
 
 To see completed challenges live, visit:
-👉 **[https://paul-dk.github.io/webdev-challenges/icode-this/](https://paul-dk.github.io/webdev-challenges/icode-this/)** (Placeholder URL, will be active once GitHub Pages is configured!)
+👉 **[https://paul-dk.github.io/webdev-challenges/ict-challenges/](https://paul-dk.github.io/webdev-challenges/ict-challenges/)** (Placeholder URL, will be active once GitHub Pages is configured!)
 
 This page will showcase my completed projects in an interactive way.
 

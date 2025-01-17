@@ -15,7 +15,7 @@ This section of my repository is dedicated to my **learning journey**, where I i
 Each challenge is organized in its own folder:
 
 ```
-frontend-mentor/
+fem-challenges/
 │── challenge-1/
 │   ├── index.html
 │   ├── css/
@@ -40,7 +40,6 @@ frontend-mentor/
 │   ├── assets/
 │   │   ├── (images, icons, fonts, etc.)
 │   ├── README.md
-...
 ```
 
 Each project folder is structured to keep **CSS, SCSS, JavaScript, and assets** organized in separate subfolders for better maintainability. If a challenge uses SCSS, the compiled CSS will be in the `css/` folder, with a **minified version (`styles.min.css`)** for optimized performance.
@@ -50,7 +49,7 @@ Each project folder is structured to keep **CSS, SCSS, JavaScript, and assets** 
 ## 🌍 Viewing Live Previews
 
 To see completed challenges live, visit:
-👉 **[https://paul-dk.github.io/webdev-challenges/frontend-mentor/](https://paul-dk.github.io/webdev-challenges/frontend-mentor/)** (Placeholder URL, will be active once GitHub Pages is configured!)
+👉 **[https://paul-dk.github.io/webdev-challenges/fem-challenges/](https://paul-dk.github.io/webdev-challenges/fem-challenges/)** (Placeholder URL, will be active once GitHub Pages is configured!)
 
 This page will showcase my completed projects in an interactive way.
 
