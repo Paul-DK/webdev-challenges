@@ -11,6 +11,7 @@ This section of my repository is dedicated to my **learning journey**, where I i
 ---
 
 ## 📂 Folder Structure
+
 Each challenge is organized in its own folder:
 
 ```
@@ -65,18 +66,20 @@ Due to **GDPR compliance**, I am **self-hosting all fonts** instead of using thi
 
 These solutions are based on challenges provided by **[Frontend Mentor](https://www.frontendmentor.io/)**.
 
-- The **starter files, assets, and designs** used in this repository **belong to Frontend Mentor**.
-- You **may not** redistribute, resell, or claim ownership of any non-original assets in this repo.
+-   The **starter files, assets, and designs** used in this repository **belong to Frontend Mentor**.
+-   You **may not** redistribute, resell, or claim ownership of any non-original assets in this repo.
 
 ### ✅ **What You Can Do:**
-- You **may use my original code** for **learning purposes, personal projects, or inspiration**.
-- You **may modify and adapt my solutions** for your own use.
-- If sharing publicly, I’d appreciate a mention (`Code by @Paul-DK`), but it’s not required.
+
+-   You **may use my original code** for **learning purposes, personal projects, or inspiration**.
+-   You **may modify and adapt my solutions** for your own use.
+-   If sharing publicly, I’d appreciate a mention (`Code by @Paul-DK`), but it’s not required.
 
 ### 🚫 **What You Cannot Do:**
-- You **cannot** redistribute, resell, or share any challenge **starter files, assets, or designs** from Frontend Mentor.
-- You **cannot** claim my solutions as your own in professional or academic settings.
-- You **cannot** use this repository to submit as your own work for any challenges on **Frontend Mentor**.
+
+-   You **cannot** redistribute, resell, or share any challenge **starter files, assets, or designs** from Frontend Mentor.
+-   You **cannot** claim my solutions as your own in professional or academic settings.
+-   You **cannot** use this repository to submit as your own work for any challenges on **Frontend Mentor**.
 
 💡 If you want to complete these challenges yourself, visit:
 👉 **[Frontend Mentor](https://www.frontendmentor.io/)**
@@ -84,18 +87,20 @@ These solutions are based on challenges provided by **[Frontend Mentor](https://
 ---
 
 ## 🚀 Why I’m Doing These Challenges
+
 These challenges help me:
 ✅ Strengthen my **HTML, CSS, SCSS, and JavaScript** skills  
 ✅ Gain hands-on experience with **responsive design**  
 ✅ Improve my understanding of **semantic and accessible coding**  
 ✅ Work with real-world **UI components and layouts**  
-✅ Develop better **problem-solving and debugging skills**  
+✅ Develop better **problem-solving and debugging skills**
 
 I’ll continue to add new projects here as I complete more challenges. Feel free to explore, learn, and clone the repo for your own practice! 😊
 
 ---
 
 ### 🎉 Thanks for Checking Out My Work!
+
 If you're also working on Frontend Mentor challenges, I'd love to connect! Let's build and grow together. 🚀
 
 **Happy Coding!**
