@@ -1,0 +1,21 @@
+:root {
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-slate-900: hsl(218, 44%, 22%);
+    --clr-slate-500: hsl(216, 15%, 48%);
+    --clr-slate-300: hsl(212, 45%, 89%);
+    --font-700-lg: 700 1.375rem/120% Outfit, san-serif;
+    --font-400-md: 400 0.9375rem/140% Outfit, san-serif;
+
+    --max-width-card: 320px;
+    --max-width-qr: 288px;
+
+    --ltr-space-heading: 0rem; /* 0px */
+    --ltr-space-body: 0.0125rem; /* 0.2px */
+
+    --space-lg: 2.5rem; /* 40px */
+    --space-md: 1.5rem; /* 24px */
+    --space-sm: 1rem; /* 16px */
+
+    --radius-card: 1.25rem; /* 20px */
+    --radius-qr: 0.625rem; /* 10px */
+}
