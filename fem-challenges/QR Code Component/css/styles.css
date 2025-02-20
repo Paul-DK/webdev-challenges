@@ -1,16 +1,16 @@
 @font-face {
-  font-display: swap;
-  font-family: 'Outfit';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/outfit-v11-latin-regular.woff2') format('woff2');
+    font-display: swap;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/outfit-v11-latin-regular.woff2') format('woff2');
 }
 @font-face {
-  font-display: swap;
-  font-family: 'Outfit';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../assets/fonts/outfit-v11-latin-700.woff2') format('woff2');
+    font-display: swap;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/outfit-v11-latin-700.woff2') format('woff2');
 }
 
 :root {
@@ -36,9 +36,9 @@
 }
 
 body {
-    display:grid;
+    display: grid;
     min-height: 100lvh;
-    place-items:center;
+    place-items: center;
     font-family: 'Outfit', Helvetica, Arial, sans-serif;
     color: var(--clr-slate-900);
     background-color: var(--clr-slate-300);
@@ -61,7 +61,7 @@ body {
         padding-inline: var(--space-sm);
     }
 
-    & > .card__content > .card__title > h2{
+    & > .card__content > .card__title > h2 {
         font: var(--font-700-lg);
         letter-spacing: var(--ltr-space-heading);
         color: var(--clr-slate-900);

@@ -21,7 +21,7 @@
 }
 
 :root {
-    --ff-font: 'Poppins', sans-serif;
+    --ff-font: Poppins, sans-serif;
     --fw-light: 200;
     --fw-regular: 400;
     --fw-bold: 600;
