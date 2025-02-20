@@ -35,7 +35,7 @@ body {
     font-family: var(--ff-font);
     font-weight: var(--fw-regular);
     font-size: var(--fs-body);
-    min-height: 100lvh;
+    min-height: 100svh;
 }
 
 header {
@@ -53,6 +53,19 @@ header {
     text-align: center;
     width: 25rem;
     padding: 4rem;
-    background-color: hsl(33, 100%, 88%);
     border-radius: 1rem;
+    border-style: solid;
+    border-width: 7px;
+}
+
+.femCard {
+    color: hsl(227, 44%, 44%);
+    background-color: hsl(0, 0%, 98%);
+    border-color: hsl(190, 50%, 65%);
+}
+
+.ictCard {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(259, 66%, 63%);
+    border-color: hsl(254, 32%, 21%);
 }
