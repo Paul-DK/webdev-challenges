@@ -1,10 +1,25 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/outfit-v11-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/outfit-v11-latin-700.woff2') format('woff2');
+}
+
 :root {
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-slate-900: hsl(218, 44%, 22%);
     --clr-slate-500: hsl(216, 15%, 48%);
     --clr-slate-300: hsl(212, 45%, 89%);
-    --font-700-lg: 700 1.375rem/120% Outfit, san-serif;
-    --font-400-md: 400 0.9375rem/140% Outfit, san-serif;
+    --font-700-lg: 700 1.375rem/120% Outfit, Helvetica, Arial, sans-serif;
+    --font-400-md: 400 0.9375rem/140% Outfit, Helvetica, Arial, sans-serif;
 
     --max-width-card: 320px;
     --max-width-qr: 288px;
@@ -18,4 +33,46 @@
 
     --radius-card: 1.25rem; /* 20px */
     --radius-qr: 0.625rem; /* 10px */
+}
+
+body {
+    display:grid;
+    min-height: 100lvh;
+    place-items:center;
+    font-family: 'Outfit', Helvetica, Arial, sans-serif;
+    color: var(--clr-slate-900);
+    background-color: var(--clr-slate-300);
+}
+
+.card {
+    max-width: var(--max-width-card);
+    background-color: var(--clr-neutral-100);
+    border-radius: var(--radius-card);
+    padding: var(--space-sm);
+    padding-block-end: var(--space-lg);
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+
+    & > .card__image > img {
+        max-width: var(--max-width-qr);
+        border-radius: var(--radius-qr);
+        margin-block-end: var(--space-md);
+    }
+    & > .card__content {
+        padding-inline: var(--space-sm);
+    }
+
+    & > .card__content > .card__title > h2{
+        font: var(--font-700-lg);
+        letter-spacing: var(--ltr-space-heading);
+        color: var(--clr-slate-900);
+        margin-block-end: var(--space-sm);
+        text-align: center;
+    }
+
+    & > .card__content > .card__text > p {
+        font: var(--font-400-md);
+        letter-spacing: var(--ltr-space-body);
+        color: var(--clr-slate-500);
+        text-align: center;
+    }
 }
