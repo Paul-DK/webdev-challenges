@@ -20,11 +20,12 @@
     src: url('../assets/fonts/poppins-v22-latin-600.woff2') format('woff2');
 }
 @font-face {
-  font-display: swap;
-  font-family: 'Luckiest Guy';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/luckiest-guy-v23-latin-regular.woff2') format('woff2');
+    font-display: swap;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/luckiest-guy-v23-latin-regular.woff2')
+        format('woff2');
 }
 
 :root {
@@ -53,14 +54,14 @@ header {
     margin-block-end: 5rem;
 
     & > p {
-        font-size: calc(var(--fs-body) + 80% );
+        font-size: calc(var(--fs-body) + 80%);
     }
 
     & > h1 {
         font-family: var(--ff-font-title);
         font-size: var(--fs-heading-title);
         letter-spacing: 5px;
-        line-height: .8;
+        line-height: 0.8;
     }
 }
 
@@ -88,6 +89,12 @@ header {
     background-color: hsl(0, 0%, 98%);
     border-color: hsl(190, 50%, 65%);
 
+    & > img {
+        margin-inline: auto;
+        margin-block-end: 1.5rem;
+        width: 3rem;
+    }
+
     & > h2 {
         margin-block-end: 3rem;
         color: hsl(189, 50%, 61%);
@@ -99,6 +106,12 @@ header {
     background-color: hsl(254, 32%, 70%);
     border-color: hsl(254, 32%, 21%);
 
+    & > img {
+        margin-inline: auto;
+        margin-block-end: 1.5rem;
+        width: 3rem;
+    }
+
     & > h2 {
         margin-block-end: 3rem;
         color: hsl(335, 77%, 53%);
@@ -106,7 +119,7 @@ header {
 }
 
 .challengeProvider {
-    font-size: .825rem;
+    font-size: 0.825rem;
     letter-spacing: 2px;
     font-weight: var(--fw-regular);
 }
