@@ -115,3 +115,14 @@ footer {
     font-size: 1rem;
     text-align: center;
 }
+
+@media screen and (max-width: 868px) {
+    .cards {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .card {
+        margin-inline: auto;
+    }
+}
