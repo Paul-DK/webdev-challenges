@@ -19,13 +19,22 @@
     font-weight: 600;
     src: url('../assets/fonts/poppins-v22-latin-600.woff2') format('woff2');
 }
+@font-face {
+  font-display: swap;
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/luckiest-guy-v23-latin-regular.woff2') format('woff2');
+}
 
 :root {
+    --ff-font-title: Luckiest Guy, cursive;
     --ff-font: Poppins, sans-serif;
     --fw-light: 200;
     --fw-regular: 400;
     --fw-bold: 600;
     --fs-heading: 1.75rem;
+    --fs-heading-title: 4rem;
     --fs-body: 1.2rem;
 }
 
@@ -36,6 +45,7 @@ body {
     font-weight: var(--fw-regular);
     font-size: var(--fs-body);
     min-height: 100svh;
+    color: hsl(0, 0%, 35%);
 }
 
 header {
@@ -43,11 +53,14 @@ header {
     margin-block-end: 5rem;
 
     & > p {
-        font-size: var(--fs-body);
+        font-size: calc(var(--fs-body) + 80% );
     }
 
     & > h1 {
-        font-size: var(--fs-heading);
+        font-family: var(--ff-font-title);
+        font-size: var(--fs-heading-title);
+        letter-spacing: 5px;
+        line-height: .8;
     }
 }
 
