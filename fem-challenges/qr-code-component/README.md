@@ -4,18 +4,18 @@ This is my implementation of the [QR Code Component challenge](https://www.front
 
 ## Table of Contents
 
--   [Frontend Mentor - QR Code Component Solution](#frontend-mentor---qr-code-component-solution)
-    -   [Table of Contents](#table-of-contents)
-    -   [Overview](#overview)
-        -   [Screenshot](#screenshot)
-        -   [Links](#links)
-    -   [My Process](#my-process)
-        -   [Built With](#built-with)
-        -   [**Why I Used CSS Custom Properties**](#why-i-used-css-custom-properties)
-    -   [What I Learned](#what-i-learned)
-    -   [Continued Development](#continued-development)
-    -   [Useful Resources](#useful-resources)
-    -   [Author](#author)
+- [Frontend Mentor - QR Code Component Solution](#frontend-mentor---qr-code-component-solution)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My Process](#my-process)
+    - [Built With](#built-with)
+    - [**Why I Used CSS Custom Properties**](#why-i-used-css-custom-properties)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
@@ -101,4 +101,5 @@ In future projects, I aim to:
 ## Author
 
 GitHub - [Paul-DK](https://github.com/Paul-DK)  
-Frontend Mentor - [@Paul-DK](https://www.frontendmentor.io/profile/Paul-DK)
+Frontend Mentor - [@Paul-DK](https://www.frontendmentor.io/profile/Paul-DK)  
+BlueSky - [@pauldk.bsky.social](https://pauldk.bsky.social)
